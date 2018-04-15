@@ -4,8 +4,8 @@ namespace Tumichnix\Maintenance\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Tumichnix\Maintenance\Exceptions\MaintenanceException;
 use Tumichnix\Maintenance\MaintenanceTrait;
+use Tumichnix\Maintenance\Exceptions\MaintenanceException;
 
 class MaintenanceMiddleware
 {

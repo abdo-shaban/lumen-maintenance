@@ -15,7 +15,7 @@ class Down extends Command
     public function handle()
     {
         $down = $this->getMaintenanceFilePath();
-        if (!file_exists($down)) {
+        if (! file_exists($down)) {
             touch($down);
         }
         $this->info('Application is now in maintenance mode.');
